@@ -7,8 +7,10 @@ import { StatusBar } from '@ionic-native/status-bar';
 import { MyApp } from './app.component';
 import { HomePage } from '../pages/home/home';
 
+// AF2 module import
 import { AngularFireModule } from 'angularfire2';
 
+// AF2 config settings
 export const firbaseConfig = {
     apiKey: "AIzaSyDgqm7VP6sNPXrdMR0Vr1MbSMWbTvG6H14",
     authDomain: "prachand-bhairav.firebaseapp.com",
